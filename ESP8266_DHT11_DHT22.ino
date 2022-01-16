@@ -1,5 +1,6 @@
 
- /*
+//DON'T FORGOT TO ADD WIFI CREDS 
+/*
  * Display temperature using DHT11, DHT22 with NodeMCU ESP8266 
  * over WiFi in local network on computer o mobile devices
  * 
@@ -60,8 +61,8 @@ float tValue;//
 #include <ESP8266mDNS.h>
 
 #ifndef STASSID
-#define STASSID "Stormwind" // Your WiFi SSID
-#define STAPSK  "pennstate12" //Your WiFi password
+#define STASSID "" // Your WiFi SSID
+#define STAPSK  "" //Your WiFi password
 #endif
 
 const char* ssid = STASSID;
